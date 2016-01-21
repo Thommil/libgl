@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/fr/kesk/libgl/tools/Matrix.java" />
+        <ignore path="src/fr/kesk/libgl/tools/NodeUtils.java" />
+    </issue>
+</lint>

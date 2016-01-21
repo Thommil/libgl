@@ -1,0 +1,78 @@
+/**
+* 	Fragment shader for basic depth-map generation  
+* 	
+*	@author Thomas MILLET
+**/
+
+precision mediump float;
+
+//Varying
+varying vec4 v_PositionVec4;
+ 	
+//Constants
+const float C_HALF_FLOAT = 0.5;
+const float C_ONE_FLOAT = 1.0;
+const float C_ZERO_FLOAT = 0.0;
+const float C_255_FLOAT = 255.0;
+const float C_256_FLOAT = 256.0;
+const float C_65536_FLOAT = 65536.0;
+
+/**
+*	Convert depth FLOAT to VEC3
+*/
+vec3 FloatToVec3(float unit){
+    const vec3 scale = vec3(C_ONE_FLOAT, C_256_FLOAT, C_65536_FLOAT);
+    const float normal = C_256_FLOAT / C_255_FLOAT;
+    vec3 color = unit * scale;
+    color = fract(color);
+    color *= normal;
+    color.rg -= color.gb / C_256_FLOAT;
+    return color;
+}
+ 	
+void main()                    		
+{
+	float l_depthFloat = ((v_PositionVec4.z / v_PositionVec4.w) * C_HALF_FLOAT) + C_HALF_FLOAT;
+	
+	gl_FragColor = vec4(FloatToVec3(l_depthFloat), C_ZERO_FLOAT);
+}	
+
+/********************************************************************************************
+*	RENDERING CODE
+********************************************************************************************/
+
+////Const
+//const float C_ZERO_FLOAT = 0.0;
+//const float C_ONE_FLOAT = 1.0;
+//const float C_ZOFFSET_FLOAT = 0.005;
+//const float C_65536_FLOAT = 65536.0;
+//const float C_256_FLOAT = 256.0;
+//const float C_65793_FLOAT = 65793.0;
+//const float C_THRESHOLD_FLOAT = C_ONE_FLOAT - C_ZOFFSET_FLOAT;
+//
+///**
+//*	Convert VEC3 to FLOAT
+//*/
+//float Vec3ToFloat(vec3 color) {
+//    const vec3 scale = vec3(C_65536_FLOAT, C_256_FLOAT, C_ONE_FLOAT) / C_65793_FLOAT;
+//    return dot(color, scale);
+//}
+//
+///**
+//*	Get the stored shadow factor in sampler based on VSM approach.
+//*
+//*	@param sampler The sampler of the texture owning shadow map
+//*	@param l_ShadowCoordVec4 The shadow map tranformation matrix 
+//*	@return The factor [0,1], 1 is for fully lite, 0 for full shadow
+//*/
+//float getShadowFactorFloat(sampler2D sampler, vec4 l_ShadowCoordVec4)
+//{
+//	vec4 l_nShadowCoordVec4 = l_ShadowCoordVec4;
+//	l_nShadowCoordVec4.z -= C_ZOFFSET_FLOAT;
+// 	l_nShadowCoordVec4 /= l_ShadowCoordVec4.w;
+//
+//	float l_momentFloat = Vec3ToFloat(texture2D(u_shadowMapSampler2D, l_nShadowCoordVec4.xy).rgb);
+//	
+//	return float(l_momentFloat >= C_THRESHOLD_FLOAT || l_nShadowCoordVec4.z <= l_momentFloat);	
+//}
+	

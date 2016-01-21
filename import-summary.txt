@@ -1,0 +1,348 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitignore
+* default.properties
+* doc/
+* doc/allclasses-frame.html
+* doc/allclasses-noframe.html
+* doc/constant-values.html
+* doc/deprecated-list.html
+* doc/fix/
+* doc/fix/android/
+* doc/fix/android/opengl/
+* doc/fix/android/opengl/GLES20.html
+* doc/fix/android/opengl/class-use/
+* doc/fix/android/opengl/class-use/GLES20.html
+* doc/fix/android/opengl/package-frame.html
+* doc/fix/android/opengl/package-summary.html
+* doc/fix/android/opengl/package-tree.html
+* doc/fix/android/opengl/package-use.html
+* doc/fr/
+* doc/fr/kesk/
+* doc/fr/kesk/libgl/
+* doc/fr/kesk/libgl/BuildConfig.html
+* doc/fr/kesk/libgl/ContextManager.html
+* doc/fr/kesk/libgl/GlAssets.Camera.html
+* doc/fr/kesk/libgl/GlAssets.Geometry.Element.html
+* doc/fr/kesk/libgl/GlAssets.Geometry.html
+* doc/fr/kesk/libgl/GlAssets.Image.html
+* doc/fr/kesk/libgl/GlAssets.Light.html
+* doc/fr/kesk/libgl/GlAssets.Material.html
+* doc/fr/kesk/libgl/GlAssets.Node.GeometryInstance.MaterialInstance.html
+* doc/fr/kesk/libgl/GlAssets.Node.GeometryInstance.html
+* doc/fr/kesk/libgl/GlAssets.Node.html
+* doc/fr/kesk/libgl/GlAssets.Scene.html
+* doc/fr/kesk/libgl/GlAssets.html
+* doc/fr/kesk/libgl/GlContext.html
+* doc/fr/kesk/libgl/R.array.html
+* doc/fr/kesk/libgl/R.attr.html
+* doc/fr/kesk/libgl/R.html
+* doc/fr/kesk/libgl/R.string.html
+* doc/fr/kesk/libgl/buffer/
+* doc/fr/kesk/libgl/buffer/ByteBufferPool.html
+* doc/fr/kesk/libgl/buffer/Chunk.html
+* doc/fr/kesk/libgl/buffer/FrameBufferObject.Attachment.html
+* doc/fr/kesk/libgl/buffer/FrameBufferObject.html
+* doc/fr/kesk/libgl/buffer/GlBuffer.html
+* doc/fr/kesk/libgl/buffer/GlFrameBufferObject.Attachment.html
+* doc/fr/kesk/libgl/buffer/GlFrameBufferObject.html
+* doc/fr/kesk/libgl/buffer/GlRenderBufferObject.html
+* doc/fr/kesk/libgl/buffer/RenderBufferObject.html
+* doc/fr/kesk/libgl/buffer/class-use/
+* doc/fr/kesk/libgl/buffer/class-use/ByteBufferPool.html
+* doc/fr/kesk/libgl/buffer/class-use/Chunk.html
+* doc/fr/kesk/libgl/buffer/class-use/FrameBufferObject.Attachment.html
+* doc/fr/kesk/libgl/buffer/class-use/FrameBufferObject.html
+* doc/fr/kesk/libgl/buffer/class-use/GlBuffer.html
+* doc/fr/kesk/libgl/buffer/class-use/GlFrameBufferObject.Attachment.html
+* doc/fr/kesk/libgl/buffer/class-use/GlFrameBufferObject.html
+* doc/fr/kesk/libgl/buffer/class-use/GlRenderBufferObject.html
+* doc/fr/kesk/libgl/buffer/class-use/RenderBufferObject.html
+* doc/fr/kesk/libgl/buffer/package-frame.html
+* doc/fr/kesk/libgl/buffer/package-summary.html
+* doc/fr/kesk/libgl/buffer/package-tree.html
+* doc/fr/kesk/libgl/buffer/package-use.html
+* doc/fr/kesk/libgl/class-use/
+* doc/fr/kesk/libgl/class-use/BuildConfig.html
+* doc/fr/kesk/libgl/class-use/ContextManager.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Camera.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Geometry.Element.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Geometry.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Image.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Light.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Material.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Node.GeometryInstance.MaterialInstance.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Node.GeometryInstance.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Node.html
+* doc/fr/kesk/libgl/class-use/GlAssets.Scene.html
+* doc/fr/kesk/libgl/class-use/GlAssets.html
+* doc/fr/kesk/libgl/class-use/GlContext.html
+* doc/fr/kesk/libgl/class-use/R.array.html
+* doc/fr/kesk/libgl/class-use/R.attr.html
+* doc/fr/kesk/libgl/class-use/R.html
+* doc/fr/kesk/libgl/class-use/R.string.html
+* doc/fr/kesk/libgl/loader/
+* doc/fr/kesk/libgl/loader/API.html
+* doc/fr/kesk/libgl/loader/Assets.Geometry.Element.html
+* doc/fr/kesk/libgl/loader/Assets.Geometry.html
+* doc/fr/kesk/libgl/loader/Assets.html
+* doc/fr/kesk/libgl/loader/BinaryLoader.OnBinaryLoaderEventListener.html
+* doc/fr/kesk/libgl/loader/BinaryLoader.ResourceResolver.html
+* doc/fr/kesk/libgl/loader/BinaryLoader.html
+* doc/fr/kesk/libgl/loader/LoaderException.html
+* doc/fr/kesk/libgl/loader/class-use/
+* doc/fr/kesk/libgl/loader/class-use/API.html
+* doc/fr/kesk/libgl/loader/class-use/Assets.Geometry.Element.html
+* doc/fr/kesk/libgl/loader/class-use/Assets.Geometry.html
+* doc/fr/kesk/libgl/loader/class-use/Assets.html
+* doc/fr/kesk/libgl/loader/class-use/BinaryLoader.OnBinaryLoaderEventListener.html
+* doc/fr/kesk/libgl/loader/class-use/BinaryLoader.ResourceResolver.html
+* doc/fr/kesk/libgl/loader/class-use/BinaryLoader.html
+* doc/fr/kesk/libgl/loader/class-use/LoaderException.html
+* doc/fr/kesk/libgl/loader/package-frame.html
+* doc/fr/kesk/libgl/loader/package-summary.html
+* doc/fr/kesk/libgl/loader/package-tree.html
+* doc/fr/kesk/libgl/loader/package-use.html
+* doc/fr/kesk/libgl/package-frame.html
+* doc/fr/kesk/libgl/package-summary.html
+* doc/fr/kesk/libgl/package-tree.html
+* doc/fr/kesk/libgl/package-use.html
+* doc/fr/kesk/libgl/pipeline/
+* doc/fr/kesk/libgl/pipeline/GlOperation.html
+* doc/fr/kesk/libgl/pipeline/class-use/
+* doc/fr/kesk/libgl/pipeline/class-use/GlOperation.html
+* doc/fr/kesk/libgl/pipeline/package-frame.html
+* doc/fr/kesk/libgl/pipeline/package-summary.html
+* doc/fr/kesk/libgl/pipeline/package-tree.html
+* doc/fr/kesk/libgl/pipeline/package-use.html
+* doc/fr/kesk/libgl/shader/
+* doc/fr/kesk/libgl/shader/GlAmbientShader.html
+* doc/fr/kesk/libgl/shader/GlLambertShader.html
+* doc/fr/kesk/libgl/shader/GlLightShader.html
+* doc/fr/kesk/libgl/shader/GlProgram.html
+* doc/fr/kesk/libgl/shader/GlShader.html
+* doc/fr/kesk/libgl/shader/GlShadowMapShader.GlShadowMapTexture.html
+* doc/fr/kesk/libgl/shader/GlShadowMapShader.html
+* doc/fr/kesk/libgl/shader/GlVSMShadowMapShader.GlVSMShadowMapTexture.html
+* doc/fr/kesk/libgl/shader/GlVSMShadowMapShader.html
+* doc/fr/kesk/libgl/shader/class-use/
+* doc/fr/kesk/libgl/shader/class-use/GlAmbientShader.html
+* doc/fr/kesk/libgl/shader/class-use/GlLambertShader.html
+* doc/fr/kesk/libgl/shader/class-use/GlLightShader.html
+* doc/fr/kesk/libgl/shader/class-use/GlProgram.html
+* doc/fr/kesk/libgl/shader/class-use/GlShader.html
+* doc/fr/kesk/libgl/shader/class-use/GlShadowMapShader.GlShadowMapTexture.html
+* doc/fr/kesk/libgl/shader/class-use/GlShadowMapShader.html
+* doc/fr/kesk/libgl/shader/class-use/GlVSMShadowMapShader.GlVSMShadowMapTexture.html
+* doc/fr/kesk/libgl/shader/class-use/GlVSMShadowMapShader.html
+* doc/fr/kesk/libgl/shader/package-frame.html
+* doc/fr/kesk/libgl/shader/package-summary.html
+* doc/fr/kesk/libgl/shader/package-tree.html
+* doc/fr/kesk/libgl/shader/package-use.html
+* doc/fr/kesk/libgl/texture/
+* doc/fr/kesk/libgl/texture/ETC1Decorator.html
+* doc/fr/kesk/libgl/texture/ETC1GlTexture.html
+* doc/fr/kesk/libgl/texture/GlTexture.html
+* doc/fr/kesk/libgl/texture/GlTextureSet.OnTextureEventListener.html
+* doc/fr/kesk/libgl/texture/GlTextureSet.html
+* doc/fr/kesk/libgl/texture/OnTextureEventListener.html
+* doc/fr/kesk/libgl/texture/Texture.html
+* doc/fr/kesk/libgl/texture/class-use/
+* doc/fr/kesk/libgl/texture/class-use/ETC1Decorator.html
+* doc/fr/kesk/libgl/texture/class-use/ETC1GlTexture.html
+* doc/fr/kesk/libgl/texture/class-use/GlTexture.html
+* doc/fr/kesk/libgl/texture/class-use/GlTextureSet.OnTextureEventListener.html
+* doc/fr/kesk/libgl/texture/class-use/GlTextureSet.html
+* doc/fr/kesk/libgl/texture/class-use/OnTextureEventListener.html
+* doc/fr/kesk/libgl/texture/class-use/Texture.html
+* doc/fr/kesk/libgl/texture/package-frame.html
+* doc/fr/kesk/libgl/texture/package-summary.html
+* doc/fr/kesk/libgl/texture/package-tree.html
+* doc/fr/kesk/libgl/texture/package-use.html
+* doc/fr/kesk/libgl/tools/
+* doc/fr/kesk/libgl/tools/ByteBufferPool.html
+* doc/fr/kesk/libgl/tools/Color.html
+* doc/fr/kesk/libgl/tools/ColorUtils.html
+* doc/fr/kesk/libgl/tools/Fragment.html
+* doc/fr/kesk/libgl/tools/FragmentPipeline.html
+* doc/fr/kesk/libgl/tools/GLES20Ext.html
+* doc/fr/kesk/libgl/tools/GLES20Utils.html
+* doc/fr/kesk/libgl/tools/Matrix.html
+* doc/fr/kesk/libgl/tools/MatrixUtils.html
+* doc/fr/kesk/libgl/tools/NodeUtils.html
+* doc/fr/kesk/libgl/tools/class-use/
+* doc/fr/kesk/libgl/tools/class-use/ByteBufferPool.html
+* doc/fr/kesk/libgl/tools/class-use/Color.html
+* doc/fr/kesk/libgl/tools/class-use/ColorUtils.html
+* doc/fr/kesk/libgl/tools/class-use/Fragment.html
+* doc/fr/kesk/libgl/tools/class-use/FragmentPipeline.html
+* doc/fr/kesk/libgl/tools/class-use/GLES20Ext.html
+* doc/fr/kesk/libgl/tools/class-use/GLES20Utils.html
+* doc/fr/kesk/libgl/tools/class-use/Matrix.html
+* doc/fr/kesk/libgl/tools/class-use/MatrixUtils.html
+* doc/fr/kesk/libgl/tools/class-use/NodeUtils.html
+* doc/fr/kesk/libgl/tools/package-frame.html
+* doc/fr/kesk/libgl/tools/package-summary.html
+* doc/fr/kesk/libgl/tools/package-tree.html
+* doc/fr/kesk/libgl/tools/package-use.html
+* doc/fr/kesk/libgl/ui/
+* doc/fr/kesk/libgl/ui/GlElement.html
+* doc/fr/kesk/libgl/ui/class-use/
+* doc/fr/kesk/libgl/ui/class-use/GlElement.html
+* doc/fr/kesk/libgl/ui/package-frame.html
+* doc/fr/kesk/libgl/ui/package-summary.html
+* doc/fr/kesk/libgl/ui/package-tree.html
+* doc/fr/kesk/libgl/ui/package-use.html
+* doc/fr/kesk/libgl/widget/
+* doc/fr/kesk/libgl/widget/GLSceneView.EGLConfigChooser.html
+* doc/fr/kesk/libgl/widget/GLSceneView.EGLContextFactory.html
+* doc/fr/kesk/libgl/widget/GLSceneView.EGLWindowSurfaceFactory.html
+* doc/fr/kesk/libgl/widget/GLSceneView.html
+* doc/fr/kesk/libgl/widget/GlSceneView.FPSListener.html
+* doc/fr/kesk/libgl/widget/class-use/
+* doc/fr/kesk/libgl/widget/class-use/GLSceneView.EGLConfigChooser.html
+* doc/fr/kesk/libgl/widget/class-use/GLSceneView.EGLContextFactory.html
+* doc/fr/kesk/libgl/widget/class-use/GLSceneView.EGLWindowSurfaceFactory.html
+* doc/fr/kesk/libgl/widget/class-use/GLSceneView.html
+* doc/fr/kesk/libgl/widget/class-use/GlSceneView.FPSListener.html
+* doc/fr/kesk/libgl/widget/package-frame.html
+* doc/fr/kesk/libgl/widget/package-summary.html
+* doc/fr/kesk/libgl/widget/package-tree.html
+* doc/fr/kesk/libgl/widget/package-use.html
+* doc/help-doc.html
+* doc/index-files/
+* doc/index-files/index-1.html
+* doc/index-files/index-10.html
+* doc/index-files/index-11.html
+* doc/index-files/index-12.html
+* doc/index-files/index-13.html
+* doc/index-files/index-14.html
+* doc/index-files/index-15.html
+* doc/index-files/index-16.html
+* doc/index-files/index-17.html
+* doc/index-files/index-18.html
+* doc/index-files/index-19.html
+* doc/index-files/index-2.html
+* doc/index-files/index-20.html
+* doc/index-files/index-21.html
+* doc/index-files/index-22.html
+* doc/index-files/index-23.html
+* doc/index-files/index-24.html
+* doc/index-files/index-25.html
+* doc/index-files/index-26.html
+* doc/index-files/index-3.html
+* doc/index-files/index-4.html
+* doc/index-files/index-5.html
+* doc/index-files/index-6.html
+* doc/index-files/index-7.html
+* doc/index-files/index-8.html
+* doc/index-files/index-9.html
+* doc/index.html
+* doc/overview-frame.html
+* doc/overview-summary.html
+* doc/overview-tree.html
+* doc/package-list
+* doc/resources/
+* doc/resources/inherit.gif
+* doc/serialized-form.html
+* doc/stylesheet.css
+* native.sh
+* proguard-project.txt
+* tools/
+* tools/.DS_Store
+* tools/Compressonator.2008-12-18-v1.50.1731.msi
+* tools/Matrix.java
+* tools/util.cpp
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* jni/ => app/src/main/jni/
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/fr/kesk/libgl/shader/gsgl/map/shadowmap.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/map/shadowmap.fgt
+* src/fr/kesk/libgl/shader/gsgl/map/shadowmap.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/map/shadowmap.vtx
+* src/fr/kesk/libgl/shader/gsgl/map/vsm_shadowmap.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/map/vsm_shadowmap.fgt
+* src/fr/kesk/libgl/shader/gsgl/map/vsm_shadowmap.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/map/vsm_shadowmap.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/ambient/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/ambient/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/ambient/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/ambient/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/ambient/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/ambient/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/ambient/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/ambient/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/high/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/high/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/high/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/high/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/high/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/high/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/high/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/high/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/low/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/low/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/low/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/low/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/low/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/low/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/low/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/directional/low/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/point/high/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/point/high/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/point/high/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/point/high/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/point/high/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/point/high/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/point/high/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/point/high/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/point/low/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/point/low/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/point/low/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/point/low/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/point/low/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/point/low/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/point/low/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/point/low/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/high/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/high/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/high/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/high/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/high/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/high/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/high/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/high/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/low/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/low/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/low/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/low/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/low/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/low/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/low/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/diffuse/spot/low/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/directional/high/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/directional/high/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/directional/high/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/directional/high/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/directional/high/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/directional/high/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/directional/high/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/directional/high/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/directional/low/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/directional/low/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/directional/low/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/directional/low/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/directional/low/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/directional/low/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/directional/low/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/directional/low/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/point/high/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/point/high/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/point/high/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/point/high/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/point/high/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/point/high/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/point/high/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/point/high/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/point/low/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/point/low/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/point/low/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/point/low/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/point/low/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/point/low/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/point/low/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/point/low/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/spot/high/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/spot/high/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/spot/high/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/spot/high/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/spot/high/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/spot/high/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/spot/high/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/spot/high/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/spot/low/notex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/spot/low/notex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/spot/low/notex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/spot/low/notex.vtx
+* src/fr/kesk/libgl/shader/gsgl/material/specular/spot/low/tex.fgt => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/spot/low/tex.fgt
+* src/fr/kesk/libgl/shader/gsgl/material/specular/spot/low/tex.vtx => app/src/main/resources/fr/kesk/libgl/shader/gsgl/material/specular/spot/low/tex.vtx
+* src/fr/kesk/libgl/shader/gsgl/tools/pack.inc => app/src/main/resources/fr/kesk/libgl/shader/gsgl/tools/pack.inc
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
